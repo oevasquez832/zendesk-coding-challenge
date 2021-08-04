@@ -12,6 +12,8 @@ For Windows, download get-pip.py to a folder on your computer. Open a command pr
 Once pip is installed, run the command "pip install -r requirements.txt" in a command window/ terminal <br>
 
 # Running the application
+This version of the application pulls credentials from an external file called keyFile.txt An example file has been added to this repository.
+The first line of the text file should be your username/email whereas the second line should be your password
 Type python3 ticket_viewer.py to run the application in the CLI. This brings up the welcome message that presents 3 user input options the user can type in. <br>
 'tickets' - option to view all available tickets <br>
 'select' - option to select a specific ticket <br>
